@@ -59,14 +59,13 @@ body{
      - Add 10px of margin on the left and right sides only
      - Set the font-size to 1rem
 --------------------------------------------------------------- */
-nav {
-  a{
-    color: #f39c12;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1rem;
-  }
+nav > a{
+  
+ color: #f39c12;
+ text-decoration: none;
+ margin-left: 10px;
+ margin-right: 10px;
+ font-size: 1rem;
 }
 
 
@@ -76,11 +75,9 @@ nav {
      - Change the text-decoration to underline
      - Change the color to #ffffff
 --------------------------------------------------------------- */
-nav {
-  a:hover{
-   text-decoration: underline;
-   color: #ffffff;
-  }
+nav > a:hover{
+ text-decoration: underline;
+ color: #ffffff;
 }
 
 
@@ -142,7 +139,7 @@ h2{
   padding: 0px;
   
 }
-.hobbies-list>li{
+.hobbies-list > li{
     background-color: #ffffff;
     padding: 10px;
     margin-bottom: 4px;
@@ -156,7 +153,7 @@ h2{
      - Change its text color to #ffffff
      - Change its left border color to #e67e22
 --------------------------------------------------------------- */
-.hobbies-list >.highlight{
+.hobbies-list > .highlight{
   background-color: #f39c12;
   color: #ffffff;
   border-left-color: #e67e22;
