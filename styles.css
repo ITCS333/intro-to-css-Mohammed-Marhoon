@@ -59,8 +59,7 @@ body{
      - Add 10px of margin on the left and right sides only
      - Set the font-size to 1rem
 --------------------------------------------------------------- */
-nav > a{
-  
+header > nav > a{ 
  color: #f39c12;
  text-decoration: none;
  margin-left: 10px;
@@ -75,7 +74,7 @@ nav > a{
      - Change the text-decoration to underline
      - Change the color to #ffffff
 --------------------------------------------------------------- */
-nav > a:hover{
+header > nav > a:hover{
  text-decoration: underline;
  color: #ffffff;
 }
@@ -139,12 +138,12 @@ h2{
   padding: 0px;
   
 }
-.hobbies-list > li{
+.hobbies-list > ul > li{
     background-color: #ffffff;
     padding: 10px;
     margin-bottom: 4px;
     border-left: 4px solid #2c3e50;
-  }
+}
 
 /* ---------------------------------------------------------------
    EXERCISE 10 — Highlighted List Item
