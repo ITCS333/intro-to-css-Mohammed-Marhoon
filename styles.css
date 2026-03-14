@@ -59,13 +59,14 @@ body{
      - Add 10px of margin on the left and right sides only
      - Set the font-size to 1rem
 --------------------------------------------------------------- */
-nav > a{
-  
- color: #f39c12;
- text-decoration: none;
- margin-left: 10px;
- margin-right: 10px;
- font-size: 1rem;
+nav {
+  a{
+    color: #f39c12;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
 }
 
 
@@ -75,9 +76,11 @@ nav > a{
      - Change the text-decoration to underline
      - Change the color to #ffffff
 --------------------------------------------------------------- */
-nav > a:hover{
- text-decoration: underline;
- color: #ffffff;
+nav {
+  a:hover{
+   text-decoration: underline;
+   color: #ffffff;
+  }
 }
 
 
